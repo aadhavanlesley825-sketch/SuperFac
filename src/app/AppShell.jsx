@@ -75,7 +75,7 @@ export function AppShell() {
         <aside className="w-full md:w-[220px] md:flex-shrink-0 border-b md:border-b-0 md:border-r border-[#e4e1dd] bg-[#ffffff] flex flex-col py-5 px-3">
           <div className="flex items-center gap-2 px-2 mb-8">
             <div className="w-8 h-8 rounded-md bg-[#f5f5f3] border border-[#e4e1dd] flex items-center justify-center overflow-hidden p-0.5">
-              <img src="/superfac-logo.svg" alt="SuperFac logo" className="w-full h-full object-contain" />
+              <img src={`${import.meta.env.BASE_URL}superfac-logo.svg`} alt="SuperFac logo" className="w-full h-full object-contain" />
             </div>
 
             <div>
@@ -146,7 +146,7 @@ export function AppShell() {
             <div className="max-w-[1400px] mx-auto flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 rounded-md bg-white/5 border border-white/10 p-1">
-                  <img src="/superfac-logo.svg" alt="SuperFac logo" className="w-full h-full object-contain" />
+                  <img src={`${import.meta.env.BASE_URL}superfac-logo.svg`} alt="SuperFac logo" className="w-full h-full object-contain" />
                 </div>
                 <div className="text-sm font-medium tracking-[-0.02em] text-white">Nike Chennai Manufacturing Facility</div>
               </div>

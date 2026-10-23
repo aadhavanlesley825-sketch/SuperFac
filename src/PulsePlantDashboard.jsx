@@ -197,7 +197,7 @@ function Header({ tick, flaggedCount }) {
     >
       <div className="flex items-center gap-4">
         <motion.div className="logo-mark" whileHover={{ rotate: -6, scale: 1.06 }} transition={{ type: "spring", stiffness: 300, damping: 15 }}>
-          <img src="/superfac-logo.svg" alt="SuperFac logo" className="logo-mark-img" />
+          <img src={`${import.meta.env.BASE_URL}superfac-logo.svg`} alt="SuperFac logo" className="logo-mark-img" />
         </motion.div>
         <div>
           <div className="flex items-center gap-2">

@@ -113,7 +113,7 @@ export default function AuthShell({ eyebrow, title, subtitle, children, footer }
       >
         <div className="flex items-center gap-3">
           <div className="auth-logo-mark">
-            <img src="/superfac-logo.svg" alt="SuperFac logo" />
+            <img src={`${import.meta.env.BASE_URL}superfac-logo.svg`} alt="SuperFac logo" />
           </div>
           <div>
             <p className="auth-app-title">SuperFac</p>
